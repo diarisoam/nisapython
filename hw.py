@@ -1,2 +1,2 @@
 __author__ = 'mihaja'
-print("welcome to Ghana")
+print("i miss u")
