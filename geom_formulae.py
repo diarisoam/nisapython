@@ -4,7 +4,7 @@ from numpy import *
 ###################  VOLUME OF A SPHERE###################
 def sphere_volume(radius: number) -> number:
     """
-   it calculates the volume of a sphere from its radius
+calculates the volume of a sphere from its radius
    :param radius: the  radius of the shere
    """
     volume = pi*(4/3)*radius**3
@@ -98,10 +98,9 @@ print("\n")
 ###################  AREA OF A RECTANGLE  #####################
 def area_rectangle(width,length):
     """
-it calcules the area of a rectangle from its width and length
+it calculates the area of a rectangle from its width and length
     :param width:  the  width of the rectangle
     :param length: the  length of the rectangle
-    :return:
     """
     return width*length
 print("###########  RECTANGLE  ###########")
@@ -116,7 +115,6 @@ print("\n")
 def circle_area(radius):
     """
     :param radius:the radius of the circle
-    :return:
     """
     return 2*pi*radius**2
 print("##########  CIRCLE  #############")
@@ -143,3 +141,15 @@ height=input("enter the height of the cuboid")
 height=int(height)
 print("the volume of your cuboid is",cuboid_volume(length,width,height))
 print("\n")
+
+##################  SQUARE  #############
+def square_area(side):
+    """
+    it calculates the area of a square
+    :param side: the side of your squqre
+    """
+    return side*side
+print("##################  SQUARE  #############")
+side=input("enter the side of the square")
+side=int(side)
+print("the area of yur square is",square_area(side))
